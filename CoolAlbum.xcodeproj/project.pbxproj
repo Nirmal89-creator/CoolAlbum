@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E76148425B9836D00C1BDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76148325B9836D00C1BDEF /* AppDelegate.swift */; };
+		5E76148625B9836D00C1BDEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76148525B9836D00C1BDEF /* SceneDelegate.swift */; };
+		5E76148D25B9836E00C1BDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E76148C25B9836E00C1BDEF /* Assets.xcassets */; };
+		5E76149025B9836E00C1BDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E76148E25B9836E00C1BDEF /* LaunchScreen.storyboard */; };
+		5E7614C025B986AA00C1BDEF /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614BF25B986AA00C1BDEF /* AlbumViewController.swift */; };
+		5E7614C825B99A2600C1BDEF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614C725B99A2600C1BDEF /* DetailViewController.swift */; };
+		5E7614D225B99AAC00C1BDEF /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614D125B99AAC00C1BDEF /* AlbumView.swift */; };
+		5E7614DC25B9B99D00C1BDEF /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614DB25B9B99D00C1BDEF /* AlbumViewModel.swift */; };
+		5E7614DF25B9BA1F00C1BDEF /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614DE25B9BA1F00C1BDEF /* AlbumModel.swift */; };
+		5E7614E225B9C3D600C1BDEF /* AlbumApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614E125B9C3D600C1BDEF /* AlbumApiService.swift */; };
+		5E7614E925B9C60E00C1BDEF /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614E825B9C60E00C1BDEF /* AlbumTableViewCell.swift */; };
+		5E76151D25B9FAE000C1BDEF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76151C25B9FAE000C1BDEF /* DetailView.swift */; };
+		5E76152025B9FB0700C1BDEF /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76151F25B9FB0700C1BDEF /* DetailViewModel.swift */; };
+		5E76156725BA0C3B00C1BDEF /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76156625BA0C3B00C1BDEF /* DetailCollectionViewCell.swift */; };
+		8EFE90A949FAF370D2CDC660 /* Pods_CoolAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A505402059850C421EC706 /* Pods_CoolAlbum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E76148025B9836D00C1BDEF /* CoolAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E76148325B9836D00C1BDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E76148525B9836D00C1BDEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E76148C25B9836E00C1BDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E76148F25B9836E00C1BDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E76149125B9836E00C1BDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7614BF25B986AA00C1BDEF /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		5E7614C725B99A2600C1BDEF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5E7614D125B99AAC00C1BDEF /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		5E7614DB25B9B99D00C1BDEF /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		5E7614DE25B9BA1F00C1BDEF /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		5E7614E125B9C3D600C1BDEF /* AlbumApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumApiService.swift; sourceTree = "<group>"; };
+		5E7614E825B9C60E00C1BDEF /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		5E76151C25B9FAE000C1BDEF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5E76151F25B9FB0700C1BDEF /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		5E76156625BA0C3B00C1BDEF /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FDBC31EA09B25EECBDE8D24 /* Pods-CoolAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolAlbum.release.xcconfig"; path = "Target Support Files/Pods-CoolAlbum/Pods-CoolAlbum.release.xcconfig"; sourceTree = "<group>"; };
+		A8A505402059850C421EC706 /* Pods_CoolAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6204A81F13CF87D816C583C /* Pods-CoolAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolAlbum.debug.xcconfig"; path = "Target Support Files/Pods-CoolAlbum/Pods-CoolAlbum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E76147D25B9836D00C1BDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFE90A949FAF370D2CDC660 /* Pods_CoolAlbum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1555CA8ED6928BB7607A3082 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6204A81F13CF87D816C583C /* Pods-CoolAlbum.debug.xcconfig */,
+				5FDBC31EA09B25EECBDE8D24 /* Pods-CoolAlbum.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		275641E0757E27A4EE74F427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A505402059850C421EC706 /* Pods_CoolAlbum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E76147725B9836D00C1BDEF = {
+			isa = PBXGroup;
+			children = (
+				5E76148225B9836D00C1BDEF /* CoolAlbum */,
+				5E76148125B9836D00C1BDEF /* Products */,
+				1555CA8ED6928BB7607A3082 /* Pods */,
+				275641E0757E27A4EE74F427 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E76148125B9836D00C1BDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E76148025B9836D00C1BDEF /* CoolAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E76148225B9836D00C1BDEF /* CoolAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5E7614A725B984E400C1BDEF /* Model */,
+				5E7614A625B984D400C1BDEF /* View */,
+				5E7614A925B9850F00C1BDEF /* ViewModel */,
+				5E7614A825B984F500C1BDEF /* API Service */,
+				5E76148325B9836D00C1BDEF /* AppDelegate.swift */,
+				5E76148525B9836D00C1BDEF /* SceneDelegate.swift */,
+				5E76148C25B9836E00C1BDEF /* Assets.xcassets */,
+				5E76148E25B9836E00C1BDEF /* LaunchScreen.storyboard */,
+				5E76149125B9836E00C1BDEF /* Info.plist */,
+			);
+			path = CoolAlbum;
+			sourceTree = "<group>";
+		};
+		5E7614A625B984D400C1BDEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E7614BF25B986AA00C1BDEF /* AlbumViewController.swift */,
+				5E7614C725B99A2600C1BDEF /* DetailViewController.swift */,
+				5E7614D125B99AAC00C1BDEF /* AlbumView.swift */,
+				5E7614E825B9C60E00C1BDEF /* AlbumTableViewCell.swift */,
+				5E76151C25B9FAE000C1BDEF /* DetailView.swift */,
+				5E76156625BA0C3B00C1BDEF /* DetailCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E7614A725B984E400C1BDEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E7614DE25B9BA1F00C1BDEF /* AlbumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E7614A825B984F500C1BDEF /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				5E7614E125B9C3D600C1BDEF /* AlbumApiService.swift */,
+			);
+			path = "API Service";
+			sourceTree = "<group>";
+		};
+		5E7614A925B9850F00C1BDEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5E7614DB25B9B99D00C1BDEF /* AlbumViewModel.swift */,
+				5E76151F25B9FB0700C1BDEF /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E76147F25B9836D00C1BDEF /* CoolAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E76149425B9836E00C1BDEF /* Build configuration list for PBXNativeTarget "CoolAlbum" */;
+			buildPhases = (
+				081AB37B0F75AF8583C3EFE5 /* [CP] Check Pods Manifest.lock */,
+				5E76147C25B9836D00C1BDEF /* Sources */,
+				5E76147D25B9836D00C1BDEF /* Frameworks */,
+				5E76147E25B9836D00C1BDEF /* Resources */,
+				C992D408A329B9DFD4D807E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolAlbum;
+			productName = CoolAlbum;
+			productReference = 5E76148025B9836D00C1BDEF /* CoolAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E76147825B9836D00C1BDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5E76147F25B9836D00C1BDEF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 5E76147B25B9836D00C1BDEF /* Build configuration list for PBXProject "CoolAlbum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E76147725B9836D00C1BDEF;
+			productRefGroup = 5E76148125B9836D00C1BDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E76147F25B9836D00C1BDEF /* CoolAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E76147E25B9836D00C1BDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E76149025B9836E00C1BDEF /* LaunchScreen.storyboard in Resources */,
+				5E76148D25B9836E00C1BDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		081AB37B0F75AF8583C3EFE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolAlbum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C992D408A329B9DFD4D807E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolAlbum/Pods-CoolAlbum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolAlbum/Pods-CoolAlbum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoolAlbum/Pods-CoolAlbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E76147C25B9836D00C1BDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7614D225B99AAC00C1BDEF /* AlbumView.swift in Sources */,
+				5E76156725BA0C3B00C1BDEF /* DetailCollectionViewCell.swift in Sources */,
+				5E7614C025B986AA00C1BDEF /* AlbumViewController.swift in Sources */,
+				5E7614DC25B9B99D00C1BDEF /* AlbumViewModel.swift in Sources */,
+				5E7614C825B99A2600C1BDEF /* DetailViewController.swift in Sources */,
+				5E76151D25B9FAE000C1BDEF /* DetailView.swift in Sources */,
+				5E7614E925B9C60E00C1BDEF /* AlbumTableViewCell.swift in Sources */,
+				5E76152025B9FB0700C1BDEF /* DetailViewModel.swift in Sources */,
+				5E7614E225B9C3D600C1BDEF /* AlbumApiService.swift in Sources */,
+				5E7614DF25B9BA1F00C1BDEF /* AlbumModel.swift in Sources */,
+				5E76148425B9836D00C1BDEF /* AppDelegate.swift in Sources */,
+				5E76148625B9836D00C1BDEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E76148E25B9836E00C1BDEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E76148F25B9836E00C1BDEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E76149225B9836E00C1BDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E76149325B9836E00C1BDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E76149525B9836E00C1BDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6204A81F13CF87D816C583C /* Pods-CoolAlbum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F8S7YA9T;
+				INFOPLIST_FILE = CoolAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.nirmal.CoolAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E76149625B9836E00C1BDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDBC31EA09B25EECBDE8D24 /* Pods-CoolAlbum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F8S7YA9T;
+				INFOPLIST_FILE = CoolAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.nirmal.CoolAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E76147B25B9836D00C1BDEF /* Build configuration list for PBXProject "CoolAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E76149225B9836E00C1BDEF /* Debug */,
+				5E76149325B9836E00C1BDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E76149425B9836E00C1BDEF /* Build configuration list for PBXNativeTarget "CoolAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E76149525B9836E00C1BDEF /* Debug */,
+				5E76149625B9836E00C1BDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E76147825B9836D00C1BDEF /* Project object */;
+}
